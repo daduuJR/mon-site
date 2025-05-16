@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #f9d6e4;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #f7a8c1;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin: 0 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ec709b;
+}
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section {
+  max-width: 700px;
+  margin: auto;
+}
+
+a {
+  color: #d14d82;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #f9d6e4;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+.discord-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #7289da;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.discord-link:hover {
+  background-color: #5b6eae;
+}
+.discord-btn {
+  background-color: #7289da;
+  color: white;
+  padding: 12px 20px;
+  margin-left: 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s;
+}
+
+.discord-btn:hover {
+  background-color: #5b6eae;
+}
